@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+**/venv/
+
+# Docker files
+*.log
+docker-compose.override.yml
+*.env
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Testing cache and coverage
+.pytest_cache/
+.tox/
+.cache/
+.coverage
+.coverage.*
+*.cover
+coverage.xml
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Flask / Django / FastAPI specific files (if applicable)
+instance/
+db.sqlite3
+*.db
+.env
+
+# Logs and debug information
+logs/
+*.log
+
+# Ignore local dependency installations
+pip-wheel-metadata/
+__pypackages__/
